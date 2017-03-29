@@ -264,16 +264,12 @@
 
 	});
 
-	$(function(){
-		console.log("empty function");
-	});
-
 	$(document).ready(function(){
 		console.log("whats up");
 		$(".owl-carousel").owlCarousel({
 			loop: true,
-			items: 1
-			// autoplay: true
+			items: 1,
+			autoplay: true
 
 		});
 	});
