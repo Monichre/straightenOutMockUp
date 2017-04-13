@@ -265,13 +265,20 @@
 	});
 
 	$(document).ready(function(){
-		console.log("whats up");
+		$(".products").owlCarousel({
+			loop: true,
+			items: 3,
+			autoplay: true
+
+		});
+		
 		$(".owl-carousel").owlCarousel({
 			loop: true,
 			items: 1,
 			autoplay: true
 
 		});
+
 	});
 
 
